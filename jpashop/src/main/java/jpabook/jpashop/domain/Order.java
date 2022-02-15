@@ -34,7 +34,7 @@ public class Order {
 
     private LocalDateTime orderDate; // 주문 시간
 
-    @Enumerated(EnumType.ORDINAL)
+    @Enumerated(EnumType.STRING)
     private OrderStatus status; // 주문 상태 [ORDER, CANCEL]
 
     //===연관관계 메서드===//
