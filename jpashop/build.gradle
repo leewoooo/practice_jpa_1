@@ -25,6 +25,8 @@ dependencies {
 //  데이터 베이스 커넥션을 래핑하여 왔다 갔다 하는 sql statement를 출력해주는 외부 라이브러리
 //	개발에는 좋지만 운영에서는 한번 고민해봐야 한다. 성능 채크를 하고 사용할지 말지 고민해야 한다.
 	implementation "com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.8.0"
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
 	runtimeOnly 'com.h2database:h2'
 
 	//lombok 라이브러리 추가 시작
